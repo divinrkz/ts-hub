@@ -1,2 +1,2 @@
 # ts-hub
-A typescript-hub
+A hub for  Typescript Advanced concepts.
