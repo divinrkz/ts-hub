@@ -39,3 +39,14 @@ type Age = typeof MyArray[number]["age"];
 // Or
 type Age2 = Person["age"];
 // type Age2 = number
+
+
+
+const key = "age";
+type Age = Person[key];
+// Type 'any' cannot be used as an index type.
+// 'key' refers to a value, but is being used as a type here. Did you mean 'typeof key'?
+
+
+type key = "age";
+type Age = Person[key];
