@@ -61,3 +61,4 @@ type Str = Flatten<string[]>;
 // Leaves the type alone.
 type Num = Flatten<number>;
 // type Num = number
+
