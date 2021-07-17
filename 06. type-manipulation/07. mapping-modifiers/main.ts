@@ -19,7 +19,7 @@ type CreateMutable<Type> = {
 
   // Removes 'optional' attributes from a type's properties
 type Concrete<Type> = {
-    [Property in keyof Type]-?: Type[Property];
+     [Property in keyof Type]-?: Type[Property];
   };
   
   type MaybeUser = {
